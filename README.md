@@ -57,6 +57,39 @@ The second part off this project compares custom implementations of Naive Bayes,
 
 - Visualizations: Learning curves, Precision-Recall curves.
 
+  # Code Structure
+- MyBayes.py – Our custom implementation of Bernoulli Naive Bayes with Laplace smoothing.
+- Key Features:
+ - Handles text classification using binary word features.
+
+ - Includes learning curves, precision-recall analysis, and accuracy tables.
+
+- mainMYRandomForest.py – Our custom Random Forest implementation using ID3 decision trees.
+- Key Features:
+
+ - 20 decision trees with max depth=4.
+
+ - Uses Information Gain for splits.
+
+ - Parallel training with joblib.
+
+ - Includes learning curves, precision-recall curves, and accuracy tables.
+
+- mainMLP.py – Our custom Multi-Layer Perceptron (MLP) for text classification.
+- Architecture:
+
+ - Embedding layer (100-dim) + Flatten.
+
+ - Dense layers (128, 64 units) with Dropout (0.5) and BatchNorm.
+
+ - Trained for 15 epochs on 25,000 samples.
+
+   2. Library Implementations (For Comparison)
+- Bayes.py: Uses scikit-learn's BernoulliNB for Naive Bayes (Benchmark against our custom Naive Bayes implementation).
+
+- mainRandomForest.py: Uses scikit-learn's RandomForestClassifier (Benchmark against our custom Random Fores)
+
+
 # Technologies Used:
 - Python 3
 
