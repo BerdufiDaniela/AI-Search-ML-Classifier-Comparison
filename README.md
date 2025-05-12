@@ -57,7 +57,7 @@ The second part off this project compares custom implementations of Naive Bayes,
 
 - Visualizations: Learning curves, Precision-Recall curves.
 
-  # Code Structure
+  ### Code Structure
 - MyBayes.py – Our custom implementation of Bernoulli Naive Bayes with Laplace smoothing.
 - Key Features:
  - Handles text classification using binary word features.
