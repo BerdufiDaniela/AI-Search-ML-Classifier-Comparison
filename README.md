@@ -40,5 +40,26 @@ A group of family members must cross a bridge at night. The following constraint
 
  # Execution
 
-javac mainClass.java
-java mainClass
+- javac mainClass.java
+- java mainClass
+
+ # Part B – Comparison of Machine Learning Algorithms
+The second part off this project compares custom implementations of Naive Bayes, Random Forest, and MLP with their counterparts from Python libraries (scikit-learn, tensorflow) on the IMDB movie reviews dataset. The goal is to evaluate performance metrics (accuracy, precision, recall, F1-score) and analyze learning curves.
+
+# Functionality:
+- Preprocessing of IMDB reviews from TensorFlow datasets.
+
+- Feature extraction using bag-of-words and TF-IDF.
+
+- Training and evaluation of all models.
+
+- Metrics: Accuracy, Precision, Recall, F1 Score.
+
+- Visualizations: Learning curves, Precision-Recall curves.
+
+# Technologies Used:
+- Python 3
+
+- TensorFlow / Keras
+
+- NumPy, pandas, matplotlib, scikit-learn
